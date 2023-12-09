@@ -94,7 +94,8 @@ namespace VezeetaProject.Api
                            
                             new CultureInfo("en-US"),
                             new CultureInfo("ar-Eg"),
-                            new CultureInfo("ar")
+                            new CultureInfo("ar"),
+                            new CultureInfo("en")
                             
                            
                     };
