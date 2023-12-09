@@ -1,0 +1,9 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using VezeetaProject.RepositoryEF;
+global using Microsoft.AspNetCore.Identity;
+global using VezeetaProject.Core.Models.Users;
+global using VezeetaProject.Core.EntitysConfiguration;
+global using VezeetaProject.Core.Models;
+global using VezeetaProject.Core.Models.Appointment;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using VezeetaProject.Core;

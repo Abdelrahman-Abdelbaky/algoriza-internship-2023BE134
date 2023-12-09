@@ -1,0 +1,14 @@
+﻿global using System.ComponentModel.DataAnnotations;
+global using Microsoft.AspNetCore.Identity;
+global using VezeetaProject.Core.Models.Users;
+global using VezeetaProject.Core.Consts;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using VezeetaProject.Core.Models.Appointment;
+global using VezeetaProject.Core.Models;
+global using VezeetaProject.Core.Dtos;
+global using Microsoft.AspNetCore.Http;
+global using AutoMapper;
+global using VezeetaProject.Core.Dtos.DoctorDtos;
+global using VezeetaProject.Core.Dtos.AppointmentDtos;
+global using VezeetaProject.Core.Dtos.PatientDtos;

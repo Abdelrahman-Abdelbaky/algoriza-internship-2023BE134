@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddFailed" xml:space="preserve">
+    <value>فشل عملية الاضافة </value>
+  </data>
+  <data name="AddSuccessfully" xml:space="preserve">
+    <value>تم الاضافة بنجاح</value>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>يوم {0} الساعة {1} و {2} دقيقة</value>
+  </data>
+  <data name="BookingFailed" xml:space="preserve">
+    <value>فشل عملية الحجز</value>
+  </data>
+  <data name="BookingSuccessfully" xml:space="preserve">
+    <value>تم عملية  الحجز بنجاح</value>
+  </data>
+  <data name="DayErrorInput" xml:space="preserve">
+    <value>اليوم الذي أدخلته يقع خارج النطاق من 0 إلى 6</value>
+  </data>
+  <data name="DayNotFound" xml:space="preserve">
+    <value>لم يتم ايجاد يوم {0} في المواعيد</value>
+  </data>
+  <data name="Deactivated" xml:space="preserve">
+    <value>تم الغاء التفعيل</value>
+  </data>
+  <data name="DeleteFailed" xml:space="preserve">
+    <value>فشل عملية الحذف</value>
+  </data>
+  <data name="DeleteSuceesfully" xml:space="preserve">
+    <value>تم الخذف بنجاح</value>
+  </data>
+  <data name="DiscountCode" xml:space="preserve">
+    <value>يوجد كود خصم بنفس الاسم</value>
+  </data>
+  <data name="DiscountCodeNotFound" xml:space="preserve">
+    <value>كود الخصم غير موجود او تم الغاء تفعيلة</value>
+  </data>
+  <data name="DiscountError" xml:space="preserve">
+    <value>كود الخصم مستخدم من قبل</value>
+  </data>
+  <data name="DoctorBookingError" xml:space="preserve">
+    <value>لا يمكنك الحجز مع هذا الطبيب لأن لديك طلباً معلقاً معه</value>
+  </data>
+  <data name="doctorHasBookings" xml:space="preserve">
+    <value>الطبيب لديه حجوزات</value>
+  </data>
+  <data name="EmailNotFound" xml:space="preserve">
+    <value>البريد الالكتروني مستخدم من قبل</value>
+  </data>
+  <data name="EmailUsed" xml:space="preserve">
+    <value>البريد الالكتروني مستخدم من قبل</value>
+  </data>
+  <data name="ImageTypeError" xml:space="preserve">
+    <value>لايمكن استقبال غير صور من النوع التالي [JPG,PNG,JPEG]</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>العرابية</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>هذا العنصر غير متوفر</value>
+  </data>
+  <data name="numberOfPagenotLessThan1" xml:space="preserve">
+    <value>لايمكن ان يكون رقم الصفحة اقل من  1</value>
+  </data>
+  <data name="PasswordOrEmailIncorrect" xml:space="preserve">
+    <value>البريد الالكتروني او الرقم السري غير صحيح </value>
+  </data>
+  <data name="PriceUpdateError" xml:space="preserve">
+    <value>لا يمكن تعديل السعر الانه تم اضافة من قبل </value>
+  </data>
+  <data name="RequestConditionError" xml:space="preserve">
+    <value>انت لم تكمل  {0} حجوزات كاملة حتي تتمكن من الاستفاده من الاخصم</value>
+  </data>
+  <data name="SizeOfPageCanNotlessthan1" xml:space="preserve">
+    <value>حجم الصفحة لايمكن  ان يكون اقل من 1</value>
+  </data>
+  <data name="specializeIdIsWrong" xml:space="preserve">
+    <value>رقم التخصص غير موجود</value>
+  </data>
+  <data name="theIdMustBeNotLessthan1" xml:space="preserve">
+    <value>لا يمكن ان يكون  رقم التعريف  اقل من 1</value>
+  </data>
+  <data name="theValueCanNotBeEqualOrLessThanZero" xml:space="preserve">
+    <value>لايمكن ان تكون القيمة اصغر من او تساوي صفر</value>
+  </data>
+  <data name="TheValueCannotBeGreaterThan100" xml:space="preserve">
+    <value>لا يمكن ان تكون النسبة اكبر من 100</value>
+  </data>
+  <data name="TheValueCannotBeLessThan0!" xml:space="preserve">
+    <value>لا يمكن ان التكون القيمة اقل من صفر</value>
+  </data>
+  <data name="TimeDayNotFound" xml:space="preserve">
+    <value>لم يتم  ايجاد موعد يوم {0} الساعة {1} و {2} دقيقة </value>
+  </data>
+  <data name="TimeError" xml:space="preserve">
+    <value>لم يتم اضافة موعد يوم {0} الساعة {1} و {2} دقيقة لانه موجود مسبقا</value>
+  </data>
+  <data name="TimeIsUsed" xml:space="preserve">
+    <value>لا يمكن تعديل الموعد لانه مستخدم من قبل احد المرضي</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>فشل عملية التعديل</value>
+  </data>
+  <data name="UpdateSuccessfully" xml:space="preserve">
+    <value>تم التعديل بنجاح</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>مرحبا</value>
+  </data>
+</root>
