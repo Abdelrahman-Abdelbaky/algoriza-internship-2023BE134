@@ -8,7 +8,7 @@ namespace VezeetaProject.Core.Dtos.StastisticDtos
 {
     public class DoctorCountDto
     {
-        public string Image { get; set; }
+        public Byte[]  Image { get; set; }
         public string name { get; set; }
         public string specialize { get; set; }
         public int count { get; set; }

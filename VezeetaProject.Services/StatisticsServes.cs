@@ -225,7 +225,7 @@ namespace VezeetaProject.Services
                     RequestCount.Add(new DoctorCountDto()
                     {
                         name = applicationUser.FirstName + " " + applicationUser.LastName,
-                        Image = applicationUser.Image.ToString(),
+                        Image = applicationUser.Image,
                         specialize = (_localizer[ResourceItem.Language] == "English") ? specialize.SpecializaEn : specialize.SpecializaAr
                         , count = item.Value
                     });
